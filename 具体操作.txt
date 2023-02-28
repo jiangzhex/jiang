@@ -1,0 +1,25 @@
+git config --global http.sslverify false
+对付 SSL certificate problem: unable to get local issuer certificate
+git init
+
+vim hello.txt
+
+git add .
+
+
+ git status
+
+
+git commit -m "第一次"
+
+
+git config --global http.sslverify false
+
+
+ git branch -M main
+
+
+git remote add origin https://github.com/jiangandwu/jiang.git
+
+
+ git push -u origin main
